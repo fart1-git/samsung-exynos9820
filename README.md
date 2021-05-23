@@ -62,10 +62,10 @@ and also
 /* # This bit doesn't get added, it's just to show what the numbers above mean
 pixelclock 	= 533250000
 H Front Porch 	= 48
-H Sync 			= 32
+H Sync 		= 32
 H Back Porch 	= 80
 V Front Porch 	= 3
-V Sync 			= 10
+V Sync 		= 10
 V Back Porch 	= 6 */
 ```
 
