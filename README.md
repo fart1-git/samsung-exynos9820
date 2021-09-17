@@ -87,4 +87,4 @@ cat /sys/class/dp_sec/forced_resolution
 echo 28 > /sys/class/dp_sec/forced_resolution
 ```
 
-If on stock samsung rom you may need to ``echo 0`` to ``/sys/class/dp_sec/dex`` first. Phone may crash if monitor doesn't support the added resolution/doesn't communicate that it does. Adapter needs to have enough bandwidth also. check ``dmesg Displayport:`` for debugging info
+If on stock samsung rom you may need to ``echo 0`` to ``/sys/class/dp_sec/dex`` first. Phone may crash if monitor doesn't support the added resolution/doesn't communicate that it does. Adapter needs to have enough bandwidth also. check ``dmesg Displayport:`` for debugging info or ``cat /proc/dplog``
